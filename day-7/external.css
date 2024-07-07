@@ -10,8 +10,16 @@ body,html{
 }
 
 .container{
-    padding-top: 150px;
-}
+    align-items:center;
+    left: 0px;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding-top: 2px;
+  }
+  
 
 h1{
     font-size: xxx-large;
@@ -20,11 +28,20 @@ h1{
 
 button{
     background-color: #FF204E;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+   
     
 }
 a{
     text-decoration: none;
 }
+.video{
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    width: 20px; 
+    height: 200px;
+  }
+  
 
